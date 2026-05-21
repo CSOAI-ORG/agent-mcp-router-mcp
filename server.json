@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/agent-mcp-router-mcp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Agent MCP Router MCP — one router for the whole MEOK fleet. Holds 62 MEOK MCPs behind one namespaced endpoint. Install ONE thing, get all of them. By MEOK AI Labs.",
   "repository": { "url": "https://github.com/CSOAI-ORG/agent-mcp-router-mcp", "source": "github" },
-  "packages": [{ "registryType": "pypi", "identifier": "agent-mcp-router-mcp", "version": "1.0.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
+  "packages": [{ "registryType": "pypi", "identifier": "agent-mcp-router-mcp", "version": "1.1.0", "runtimeHint": "python", "transport": { "type": "stdio" } }],
   "remotes": [{ "type": "streamable-http", "url": "https://api.meok.ai/v1/a2a/agent-mcp-router" }]
 }
