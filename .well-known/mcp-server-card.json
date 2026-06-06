@@ -1,0 +1,31 @@
+{
+  "name": "agent-mcp-router-mcp",
+  "title": "Agent Mcp Router Mcp",
+  "description": "Agent MCP Router MCP \u2014 one router for the whole MEOK fleet. Holds 62 MEOK MCPs behind one namespaced endpoint. Install ONE thing, get all of them. By MEOK AI Labs.",
+  "version": "1.1.1",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "list_routes"
+    },
+    {
+      "name": "route_call"
+    },
+    {
+      "name": "register_local_mcp"
+    },
+    {
+      "name": "health_check"
+    },
+    {
+      "name": "bundle_subset"
+    },
+    {
+      "name": "sign_call_chain"
+    }
+  ]
+}

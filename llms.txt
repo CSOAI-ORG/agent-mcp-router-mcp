@@ -1,0 +1,22 @@
+# agent-mcp-router-mcp
+
+> Agent MCP Router MCP — one router for the whole MEOK fleet. Holds 62 MEOK MCPs behind one namespaced endpoint. Install ONE thing, get all of them. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- list_routes
+- route_call
+- register_local_mcp
+- health_check
+- bundle_subset
+- sign_call_chain
+
+## Install
+```
+pip install agent-mcp-router-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/agent-mcp-router-mcp/
+- Docs: https://meok.ai
