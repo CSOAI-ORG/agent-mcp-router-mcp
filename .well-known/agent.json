@@ -1,0 +1,77 @@
+{
+  "name": "agent-mcp-router-mcp",
+  "description": "Agent MCP Router MCP \u2014 one router for the whole MEOK fleet. Holds 62 MEOK MCPs behind one",
+  "url": "https://proofof.ai/scorecard/agent-mcp-router-mcp.html",
+  "version": "1.1.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "list_routes",
+      "name": "List Routes",
+      "description": "list_routes via agent-mcp-router-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "route_call",
+      "name": "Route Call",
+      "description": "route_call via agent-mcp-router-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "register_local_mcp",
+      "name": "Register Local Mcp",
+      "description": "register_local_mcp via agent-mcp-router-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "health_check",
+      "name": "Health Check",
+      "description": "health_check via agent-mcp-router-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "bundle_subset",
+      "name": "Bundle Subset",
+      "description": "bundle_subset via agent-mcp-router-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "sign_call_chain",
+      "name": "Sign Call Chain",
+      "description": "sign_call_chain via agent-mcp-router-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
