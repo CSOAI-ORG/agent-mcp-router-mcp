@@ -1,0 +1,128 @@
+{
+  "name": "Agent Mcp Router Mcp",
+  "version": "1.1.1",
+  "url": "https://mcp.meok.ai/agent-mcp-router-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Agent MCP Router MCP — one router for the whole MEOK fleet. Holds 62 MEOK MCPs behind one namespaced endpoint. Install ONE thing, get all of them. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "list_routes",
+      "name": "List Routes",
+      "description": "List Routes — a tool of the agent-mcp-router-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "route_call",
+      "name": "Route Call",
+      "description": "Route Call — a tool of the agent-mcp-router-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "register_local_mcp",
+      "name": "Register Local Mcp",
+      "description": "Register Local Mcp — a tool of the agent-mcp-router-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "health_check",
+      "name": "Health Check",
+      "description": "Health Check — a tool of the agent-mcp-router-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "bundle_subset",
+      "name": "Bundle Subset",
+      "description": "Bundle Subset — a tool of the agent-mcp-router-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_call_chain",
+      "name": "Sign Call Chain",
+      "description": "Sign Call Chain — a tool of the agent-mcp-router-mcp MCP.",
+      "tags": [
+        "agent"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "agent-mcp-router-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
