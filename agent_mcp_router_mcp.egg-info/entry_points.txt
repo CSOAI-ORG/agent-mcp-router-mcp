@@ -1,2 +1,0 @@
-[console_scripts]
-agent-mcp-router-mcp = server:main
